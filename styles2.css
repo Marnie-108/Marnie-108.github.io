@@ -1,10 +1,11 @@
-body {
+html body {
 	width: 100%;
 	padding:0em;
 	margin: 0em;
 	margin-bottom:0;
     background-color:rgb(255, 255, 255);
-	overflow-x: hidden;   
+	overflow-x: hidden; 
+	font-family: 'Roboto', sans-serif;  
 }
 
   .title {
@@ -106,7 +107,8 @@ figcaption{
 	font-size: 23px;
 }
 
-.map{ padding-bottom: 3rem;
+.map{ 
+	padding-bottom: 3rem;
 }
 
 .bottom-nav p {
