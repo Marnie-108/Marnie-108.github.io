@@ -1,0 +1,198 @@
+/* my first css*/
+
+
+html, body {
+	width: 100%;
+	padding:0em;
+	margin: 0em;
+	margin-bottom:0;
+	background: linear-gradient(-60deg, #ffcd13,#ffa64d, #ff8951, #ff6685, #d439ff, #8080ff,#3c3cdd, #000066);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title {
+	padding: 2rem;
+	background-color: black;
+	color: white;
+	width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+	align-items: center;
+}
+
+.title img {
+	flex-basis: 10%;
+    text-align: right;
+    margin-right: 1rem;
+	width: 5em;
+	margin-left: 17.8%;
+	border-radius:9em;
+	border: 2px solid white;
+}
+
+h1{
+	font-size: 3.2rem;
+	font-weight: bold;
+	flex-basis: 80%;
+    margin: 2rem 0 2rem 0;
+	text-align: left;
+	/*font-family: 'Patrick Hand', cursive;*/
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	float: none;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+	background-color: black;
+	padding: 0.6rem 0 0.6rem 0;
+	margin: 0;
+  }
+
+  nav ul{
+	width: 100%;
+	list-style-type: none;
+	padding-right: 1rem;
+	margin: 0rem;
+	text-align: center;
+  }
+  nav li {
+	width: 7rem;
+	background-color:black;
+	margin-left: 0.4rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	text-align: center;
+	display: inline-block;
+	color:white;
+	border: 0.2rem solid white;
+	font-family: 'Roboto', sans-serif;
+  }
+  nav a {
+	border: 0px solid green;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+  }
+  nav a:hover {
+	background-color: rgb(255, 217, 0);
+	color: black; 
+  }
+
+h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 400;
+}
+figcaption {
+	text-align: center;
+	color: #404040;
+}
+
+.text {
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px;
+	 
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+blockquote{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	font-style: italic;
+	text-align: left;
+}
+
+ul {
+ color: white;
+ font-weight: 400;
+ font-size: 18px;
+}
+
+.intro {
+	font-size: 18px ;
+	margin: 2rem 4rem 2rem 4rem;
+	padding: 2rem 2rem 2rem 2rem;
+	text-align: center;
+	background-color:rgb(0, 0, 0);
+	display:flex;
+	align-items: center;
+}
+
+.floatright{
+	float: right;
+	flex-wrap: nowrap;
+} 
+.floatleft{
+	float: left;
+} 
+
+div:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.bottom-nav{
+	text-align: center;
+	background-color: black;
+	padding: 1rem; 
+	margin:0;
+	width:100%;
+	text-align: none;
+}
+.bottom-nav p a{
+	color:white
+}
+.bottom-nav p a:hover{
+	color:#f5f11a;
+}
+.bottom-nav li{
+	padding:0.5rem;
+	margin: 1rem;
+	display: inline-block;
+	list-style-type: none;
+}
+.bottom-nav a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+.bottom-nav li a:hover {
+	color: #f5f11a;
+}
