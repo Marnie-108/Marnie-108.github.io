@@ -5,15 +5,11 @@ body {
 	margin-bottom:0;
     background-color:rgb(255, 255, 255);   
 }
-.title {
-	padding: 1rem;
-	background-color: #041E42;
-	/*margin-bottom: 2em;*/
+
+  .title {
+	padding: 2rem;
+	background-color: black;
 	color: white;
-	/*display: flex;
-    flex-flow: row nowrap;
-	width: 100%;
-	text-align: center;*/
 	width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -21,13 +17,22 @@ body {
 }
 
 .title img {
-	flex-basis: 5%;
+	flex-basis: 10%;
     text-align: right;
     margin-right: 1rem;
 	width: 5em;
-	margin-left: 30%;
+	margin-left: 17.8%;
 	border-radius:9em;
 	border: 2px solid white;
+}
+
+h1{
+	font-size: 3.2rem;
+	font-weight: bold;
+	flex-basis: 80%;
+    margin: 2rem 0 2rem 0;
+	text-align: left;
+	/*font-family: 'Patrick Hand', cursive;*/
 }
 
 nav{
@@ -36,21 +41,21 @@ nav{
 	float: none;
 	border-bottom: 3px solid white;
 	border-top: 3px solid white;
-	background-color: #041E42;
+	background-color: black;
 	padding: 0.6rem 0 0.6rem 0;
 	margin: 0;
   }
 
-nav ul{	
-	width: 100%;	
-	list-style-type: none;	
-	padding-right: 1rem;	
-	margin: 0rem;	
+  nav ul{
+	width: 100%;
+	list-style-type: none;
+	padding-right: 1rem;
+	margin: 0rem;
 	text-align: center;
   }
-nav li {
+  nav li {
 	width: 7rem;
-	background-color:#041E42;
+	background-color:black;
 	margin-left: 0.4rem;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
@@ -58,8 +63,9 @@ nav li {
 	display: inline-block;
 	color:white;
 	border: 0.2rem solid white;
+	font-family: 'Roboto', sans-serif;
   }
-nav a {
+  nav a {
 	border: 0px solid green;
 	font-size: 20px;
 	color: white;
@@ -67,10 +73,11 @@ nav a {
 	text-decoration: none;
 	display: block;
   }
-nav a:hover {
+  nav a:hover {
 	background-color: rgb(255, 217, 0);
 	color: black; 
   }
+
   ul {
  color: white;
   }
