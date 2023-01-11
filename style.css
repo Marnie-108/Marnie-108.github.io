@@ -148,19 +148,23 @@ ul {
 .intro {
 	font-size: 18px ;
 	margin: 2rem 4rem 2rem 4rem;
-	padding: 2rem 2rem 2rem 2rem;
+	padding: 2.5rem 2rem 2rem 2rem;
 	text-align: center;
 	background-color:rgb(0, 0, 0);
 	display:flex;
 	align-items: center;
 }
+.intro p {
+	margin-left: 2rem;
+}
 
+.container{
+	float: left;
+	flex-wrap: wrap;
+} 
 .floatright{
 	float: right;
 	flex-wrap: nowrap;
-} 
-.floatleft{
-	float: left;
 } 
 
 div:after {
@@ -168,6 +172,7 @@ div:after {
     display: table;
     clear: both;
 }
+
 .bottom-nav{
 	text-align: center;
 	background-color: black;
