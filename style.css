@@ -181,8 +181,14 @@ div:after {
 	width:100%;
 	text-align: none;
 }
+
+.bottom-nav p{
+	display:inline-block;
+	padding:0.3rem;
+}
 .bottom-nav p a{
-	color:white
+	color:white;
+	font-size: 17.5px;
 }
 .bottom-nav p a:hover{
 	color:#f5f11a;
