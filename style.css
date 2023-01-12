@@ -110,6 +110,26 @@ nav{
 	color: black; 
   }
 
+  .intro {
+	font-size: 18px ;
+	margin: 2rem 4rem 2rem 4rem;
+	padding: 2rem 2rem 2rem 2rem;
+	text-align: center;
+	background-color:rgb(0, 0, 0);
+	display:flex;
+	align-items: center;
+}
+
+.container {
+	float:left;
+	margin-right: 1rem;
+}
+
+.floatright{
+	float: right;
+	flex-wrap: nowrap;
+} 
+
 h2{
 	text-align: center;
 	font-size: 28px;
@@ -124,6 +144,9 @@ figcaption {
 	text-align: center;
 	font-weight: 400;
 	font-size: 18px;
+	padding:1rem 1rem 1rem 1rem;
+	margin: 0rem 4rem 0rem 4rem;
+	background-color: black;
 	 
 }
 .center {
@@ -132,47 +155,26 @@ figcaption {
   margin-right: auto;
   width: 50%;
 }
-blockquote{
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 16px;
-	font-style: italic;
-	text-align: left;
+
+.img{
+	margin-top:2rem;
+	border: 3px solid white;
 }
 
-ul {
+.list_why {
  color: white;
  font-weight: 400;
  font-size: 18px;
+ padding:1rem 2rem;
+ background-color: black;
+ margin:2rem 4rem;
 }
-
-.intro {
-	font-size: 18px ;
-	margin: 2rem 4rem 2rem 4rem;
-	padding: 2.5rem 2rem 2rem 2rem;
-	text-align: center;
-	background-color:rgb(0, 0, 0);
-	display:flex;
-	align-items: center;
-}
-.intro p {
-	margin-left: 2rem;
-}
-
-.container{
-	float: left;
-	flex-wrap: wrap;
-} 
-.floatright{
-	float: right;
-	flex-wrap: nowrap;
-} 
 
 div:after {
     content: "";
     display: table;
     clear: both;
 }
-
 .bottom-nav{
 	text-align: center;
 	background-color: black;
@@ -181,14 +183,8 @@ div:after {
 	width:100%;
 	text-align: none;
 }
-
-.bottom-nav p{
-	display:inline-block;
-	padding:0.3rem;
-}
 .bottom-nav p a{
-	color:white;
-	font-size: 17.5px;
+	color:white
 }
 .bottom-nav p a:hover{
 	color:#f5f11a;
