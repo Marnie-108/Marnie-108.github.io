@@ -79,9 +79,13 @@ nav{
 	color: black; 
   }
 
-  ul {
+ul {
  color: white;
   }
+
+.head_img {
+	margin:0;
+}
 
 .center {
 	display: block;
