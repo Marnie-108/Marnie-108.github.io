@@ -76,16 +76,17 @@ nav{
 	background-color: black;
 	padding: 0.6rem 0 0.6rem 0;
 	margin: 0;
-  }
+}
 
-  nav ul{
+nav ul{
 	width: 100%;
 	list-style-type: none;
 	padding-right: 1rem;
 	margin: 0rem;
 	text-align: center;
-  }
-  nav li {
+}
+
+nav li {
 	width: 7rem;
 	background-color:black;
 	margin-left: 0.4rem;
@@ -96,22 +97,25 @@ nav{
 	color:white;
 	border: 0.2rem solid white;
 	font-family: 'Roboto', sans-serif;
-  }
-  nav a {
+}
+
+nav a {
 	border: 0px solid green;
 	font-size: 20px;
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
-  }
-  nav a:hover {
+}
+
+nav a:hover {
 	background-color: rgb(255, 217, 0);
 	color: black; 
-  }
+}
 
-  .intro {
-	font-size: 18px ;
+
+.intro {
+	font-size: 1.4vw;
 	margin: 2rem 4rem 2rem 4rem;
 	padding: 2rem 2rem 2rem 2rem;
 	text-align: center;
@@ -125,6 +129,10 @@ nav{
 	margin-right: 1rem;
 }
 
+.container img {
+
+}
+
 .floatright{
 	float: right;
 	flex-wrap: nowrap;
@@ -132,9 +140,10 @@ nav{
 
 h2{
 	text-align: center;
-	font-size: 28px;
+	font-size: 2.2vw;
 	font-weight: 400;
 }
+
 figcaption {
 	text-align: center;
 	color: #404040;
@@ -143,7 +152,7 @@ figcaption {
 .text {
 	text-align: center;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 1.4vw;
 	padding:1rem 1rem 1rem 1rem;
 	margin: 0rem 4rem 0rem 4rem;
 	background-color: black;
