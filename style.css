@@ -59,10 +59,10 @@ html, body {
 }
 
 h1{
-	font-size: 3.2rem;
+	font-size: 3.5vw;
 	font-weight: bold;
 	flex-basis: 80%;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0;
 	text-align: left;
 	/*font-family: 'Patrick Hand', cursive;*/
 }
