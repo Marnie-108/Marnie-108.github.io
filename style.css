@@ -130,9 +130,9 @@ nav a:hover {
 }
 
 .container img {
-
+	width: 35vw;
+	height: auto;
 }
-
 .floatright{
 	float: right;
 	flex-wrap: nowrap;
