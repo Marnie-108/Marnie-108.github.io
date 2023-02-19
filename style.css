@@ -117,9 +117,9 @@ nav a:hover {
 
 
 .intro {
-	font-size: 1.4vw;
-	margin: 2rem 4rem 2rem 4rem;
-	padding: 2rem 2rem 2rem 2rem;
+	font-size: 20px;
+	margin: 1.9vw 3.9vw;
+	padding: 2.4vw 2.4vw 2.4vw 2.4vw;
 	text-align: center;
 	background-color:rgb(0, 0, 0);
 	display:flex;
@@ -138,11 +138,12 @@ nav a:hover {
 .floatright{
 	float: right;
 	flex-wrap: nowrap;
+	padding-bottom: 1vw;
 } 
 
 h2{
 	text-align: center;
-	font-size: 2.2vw;
+	font-size: 32px;
 	font-weight: 400;
 }
 
@@ -154,9 +155,9 @@ figcaption {
 .text {
 	text-align: center;
 	font-weight: 400;
-	font-size: 1.4vw;
-	padding:1rem 1rem 1rem 1rem;
-	margin: 0rem 4rem 0rem 4rem;
+	font-size: 18px;
+	padding:1vw;
+	margin: 0rem 4vw;
 	background-color: black;
 }
 
@@ -168,17 +169,19 @@ figcaption {
 }
 
 .img{
-	margin-top:2rem;
-	border: 3px solid white;
+	margin-top:2vw;
+	border: 0.3vw solid white;
+	width:55vw;
+	height:auto;
 }
 
 .list_why {
  color: white;
  font-weight: 400;
- font-size: 1.4vw;
- padding:1rem 2rem;
+ font-size: 18px;
+ padding:1vw 2vw;
  background-color: black;
- margin:2rem 4rem;
+ margin:2vw 4vw;
 }
 
 div:after {
