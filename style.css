@@ -49,21 +49,38 @@ html, body {
 }
 
 .title img {
-	flex-basis: 7.5%;
+	flex-basis: 7.5vw;
     text-align: right;
     margin-right: 0.3%;
 	width: 100%;
-	margin-left: 17.8%;
+	margin-left: 17%;
 	border-radius:  38%;
 	border: 1% solid white;
 }
 
-@media screen and (min-width: 1100px) {
+/*@media screen  and (max-width: 450px){
 	.title img{
-		flex-basis: 5%;
+		flex-basis: 3vw;
 	}
 }
 
+@media screen and (min-width: 1100px) {
+	.title img{
+		flex-basis: 5vw;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.title img{
+		flex-basis: 3vw;
+	}
+}
+
+@media screen and (min-width: 3000px) {
+	.title img{
+		flex-basis: 2vw;
+	}
+}*/
 
 h1{
 	font-size: 3.7vw;
@@ -79,7 +96,6 @@ h1{
 		padding: 2%;
 	}
 	.title img {
-		flex-basis: 10%;
 		margin-left: 12%;
 	}
 	h1 {
