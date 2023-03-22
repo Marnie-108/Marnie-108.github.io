@@ -124,16 +124,18 @@ nav ul{
 }
 
 nav li {
-	width: 8vw;
+	/*width: 8vw;*/
 	background-color:black;
 	margin-left: 0.5vw;
 	margin-right: 0.5vw;
 	margin-bottom: 1.1vw;
 	margin-top: 1.1vw;
+	padding: 0.2vw;
 	text-align: center;
 	display: inline-block;
 	color:white;
-	border: 0.25vw solid white;
+	border: 0.2vw solid white;
+	border-radius: 6%;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -144,6 +146,7 @@ nav a {
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
+	padding: 0.3vw;
 }
 
 nav a:hover {
