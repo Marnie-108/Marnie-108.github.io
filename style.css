@@ -36,7 +36,7 @@ html, body {
 	100% {
 		background-position: 0% 50%;
 	}
-
+}
 
 .title {
 	padding: 1.5%;
@@ -134,30 +134,7 @@ h1{
 	text-align: right;
 }
 
-.sidenav ul{
-	/*width: 100%;
-	list-style-type: none;
-	padding-right: 1.5vw;
-	padding-left: 1.5vw;
-	margin: 0rem;
-	text-align: center;*/
-}
 
-.sidenav li {
-	/*width: 8vw;*/
-	/*background-color:black;
-	margin-left: 0.5vw;
-	margin-right: 0.5vw;
-	margin-bottom: 1.1vw;
-	margin-top: 1.1vw;
-	padding: 0.2vw;
-	text-align: center;
-	display: inline-block;
-	color:white;
-	border: 0.2vw solid white;
-	border-radius: 6%;
-	font-family: 'Roboto', sans-serif;*/
-}
 
 .sidenav a {
 	/*border: 0px solid green;
