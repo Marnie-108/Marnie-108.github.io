@@ -52,15 +52,16 @@ html, body {
 	flex-basis: 8%;
     text-align: right;
     margin-right: 0.3%;
-	width: 100%;
+	width: 8%;
 	margin-left: 17%;
 	border-radius:  38%;
 	border: 1% solid white;
 }
 
 .lines {
-	flex-basis: 8%;
 	text-align: right;
+	margin-right: 4vw;
+	margin-bottom: 0.5vw;
 	color: white;
 }
 
