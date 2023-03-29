@@ -53,7 +53,7 @@ html, body {
     text-align: right;
     margin-right: 0.3%;
 	width: 8%;
-	margin-left: 17%;
+	margin-left: 16.5%;
 	border-radius:  38%;
 	border: 1% solid white;
 }
@@ -63,31 +63,8 @@ html, body {
 	margin-right: 4vw;
 	margin-bottom: 0.5vw;
 	color: white;
+	font-size:4vw;
 }
-
-/*@media screen  and (max-width: 450px){
-	.title img{
-		flex-basis: 3vw;
-	}
-}
-
-@media screen and (min-width: 1100px) {
-	.title img{
-		flex-basis: 5vw;
-	}
-}
-
-@media screen and (min-width: 2000px) {
-	.title img{
-		flex-basis: 3vw;
-	}
-}
-
-@media screen and (min-width: 3000px) {
-	.title img{
-		flex-basis: 2vw;
-	}
-}*/
 
 h1{
 	font-size: 3.7vw;
@@ -106,6 +83,24 @@ h1{
 	}
 	h1 {
 		font-size: 4.5vw;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.title {
+		padding: 6% 4%;
+	}
+	.title img {
+		margin-left: 1%;
+	}
+	h1 {
+		font-size: 5vw;
+	}
+	.lines {
+		margin-right: 10vw;
+		font-size: 7vw;
+		margin-top: 0;
+		margin-bottom: 1vw;
 	}
 }
 
