@@ -303,7 +303,7 @@ figcaption {
  font-size: 18px;
  padding:1vw 2vw;
  background-color: black;
- margin:2vw 4vw;
+ margin:3.5vw 4vw;
 }
 
 @media screen and (max-width: 1100px) {
@@ -326,13 +326,13 @@ div:after {
 .bottom-nav{
 	text-align: center;
 	background-color: black;
-	padding: 1vw; 
-	margin:0;
-	width:100%;
+	padding: 1vw 5vw 1vw 0vw; 
+	/*width:100%;*/
 	text-align: none;
+	/*border: white solid 2px;*/
 }
 .bottom-nav p a{
-	color:white
+	color:white;
 }
 .bottom-nav p a:hover{
 	color:#f5f11a;
@@ -347,6 +347,7 @@ div:after {
 	color: #ffffff;
 	text-decoration: none;
 	display: block;
+	font-size: 3vw;
 }
 .bottom-nav li a:hover {
 	color: #f5f11a;
