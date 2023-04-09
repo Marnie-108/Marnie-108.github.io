@@ -1,5 +1,7 @@
 /* my first css*/
-
+* {
+	box-sizing:border-box;
+}
 
 html, body {
 	width: 100%;
@@ -347,7 +349,7 @@ div:after {
 	color: #ffffff;
 	text-decoration: none;
 	display: block;
-	font-size: 3vw;
+	font-size: 1.5vw;
 }
 .bottom-nav li a:hover {
 	color: #f5f11a;
