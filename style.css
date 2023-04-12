@@ -11,8 +11,7 @@ html, body {
 	background: linear-gradient(-60deg, #ffcd13,#ffa64d, #ff8951, #ff6685, #d439ff, #8080ff,#3c3cdd, #000066);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
-	        animation: gradient 15s ease infinite;
-	overflow-x: hidden;
+	    animation: gradient 15s ease infinite;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -43,7 +42,7 @@ html, body {
 .title {
 	padding: 1.5%;
 	background-color: black;
-	color: white;
+	color: rgba(255, 255, 255, 0.903);
 	width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -64,7 +63,7 @@ html, body {
 	text-align: right;
 	margin-right: 4vw;
 	margin-bottom: 0.5vw;
-	color: white;
+	color: rgba(255, 255, 255, 0.903);
 	font-size:4vw;
 }
 
@@ -235,7 +234,17 @@ h2{
 
 figcaption {
 	text-align: center;
-	color: #404040;
+	color: rgb(177, 175, 175);
+	background-color: #111;
+	width: 50%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+figcaption a {
+	text-decoration: none;
+	color: rgb(177, 175, 175)
 }
 
 @media screen and (max-width:  1100px) {
