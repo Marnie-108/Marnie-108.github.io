@@ -16,27 +16,37 @@ html body {
     display: flex;
     flex-flow: row nowrap;
 	align-items: center;
+	justify-content: left;
 }
 
 .title img {
-	flex-basis: 10%;
+	flex-basis: 2%;
     text-align: right;
     margin-right: 1rem;
 	width: 5em;
-	margin-left: 17.4%;
+	margin-left: 2%;
 	border-radius:9em;
 	border: 2px solid white;
+	height: 2%;
+	justify-content: center;
+}
+.lines {
+	text-align: right;
+	margin-right: 4vw;
+	margin-bottom: 0.5vw;
+	color: white;
+	font-size:4vw;
 }
 
 h1{
-	font-size: 3.2rem;
+	font-size: 2rem;
 	font-weight: bold;
 	flex-basis: 80%;
     margin: 2rem 0 2rem 0;
 	text-align: left;
 }
 
-nav{
+/*nav{
 	display: flex;
 	width: 100%;
 	float: none;
@@ -77,6 +87,65 @@ nav{
   nav a:hover {
 	background-color: rgb(255, 217, 0);
 	color: black; 
+  }*/
+
+  .sidenav{
+	/*display: flex;
+	width: 100%;
+	float: none;
+	border-bottom: 0.25vw solid white;
+	border-top: 0.25vw solid white;
+	background-color: black;
+	padding: 0.15vw 0;
+	margin: 0;*/
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	text-align: right;
+}
+
+
+
+.sidenav a {
+	/*border: 0px solid green;
+	font-size: 1.5vw;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 0.3vw;*/
+	padding: 8px 32px 8px 8px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	/*background-color: rgb(255, 217, 0);
+	color: black;*/
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	left: 25px;
+	font-size: 36px;
+	margin-right: 50px;
+  }
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
   }
 
 ul {

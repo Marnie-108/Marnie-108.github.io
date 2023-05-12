@@ -12,12 +12,24 @@
     <title>Bioluminecence EPQ</title>
 </head>
 <body>
+    <div id = "sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="page2.html">The Science</a>
+        <a href="page3.html">Fireflies</a>
+        <a href="page4.html">The Sea</a>
+        <a href="page5">Quiz</a>
+        <a href="page6">Which Bioluminescent Animal Are You?</a>
+        <a href="page7">Bibliography</a>
+    </div>
+
     <div class="title">
         <img src="logo.png" alt="logo.">
         <h1>Bioluminescence For Dummies</h1>
+        <span class="lines" id="lines" style="cursor:pointer" onclick="openNav()" style="color:white;">&#9776;</span>
     </div>
 
-    <div class="sidebar">
+    <!--<div class="sidebar">
         <nav>
             <ul>
                 <li><a href="index.html">Place</a></li>
@@ -29,7 +41,7 @@
                 <li><a href="page7">Down</a></li>
             </ul>
         </nav>
-    </div>
+    </div>-->
     <div class="head_img">
         <img src="sea.png" style="width:100%; height: auto;">
     </div>
@@ -66,4 +78,17 @@
         </ul>
     </div>
 
+    <script>
+        function openNav() {
+        document.getElementById("sidenav").style.width = "250px";
+        //document.getElementById("main").style.marginRight = "350px";
+        document.getElementById("lines").style.color = "black";
+        }
+        
+        function closeNav() {
+        document.getElementById("sidenav").style.width = "0";
+        document.getElementById("main").style.marginRight= "0";
+        document.getElementById("lines").style.color = "white";
+        }
+    </script>
 </body>
