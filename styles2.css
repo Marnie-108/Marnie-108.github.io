@@ -9,7 +9,7 @@ html body {
 }
 
   .title {
-	padding: 2rem;
+	padding: 0.4rem;
 	background-color: black;
 	color: white;
 	width: 100%;
@@ -39,11 +39,11 @@ html body {
 }
 
 h1{
-	font-size: 2rem;
+	font-size: 3.2rem;
 	font-weight: bold;
 	flex-basis: 80%;
     margin: 2rem 0 2rem 0;
-	text-align: left;
+	text-align: center;
 }
 
 /*nav{
